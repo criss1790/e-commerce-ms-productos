@@ -18,7 +18,7 @@ export class ImagenProductoController {
     public imagenRepository: ImagenRepository,
   ) { }
 
-  @get('/imagens/{id}/producto', {
+  @get('/imagenes/{id}/producto', {
     responses: {
       '200': {
         description: 'Producto belonging to Imagen',
